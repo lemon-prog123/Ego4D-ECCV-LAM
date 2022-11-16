@@ -8,9 +8,9 @@ pip install -r requirement.txt
 ### Data preparation
 Switch to [*Ego4D*](https://github.com/EGO4D/social-interactions/tree/lam).
 
-You prepare your data just as Ego4D.
+You should prepare your data just as Ego4D.
 
-Specially,your structure should be like this:
+Specially, your structure should be like this:
 
 data/
 * csv/

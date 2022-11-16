@@ -212,9 +212,7 @@ class ImagerLoader(torch.utils.data.Dataset):#148983 1024659 #170815 1028110
             file.close()
         else:
             self.dic=None
-            
-            
-            
+
         if args.head_query and mode=='train':
             file=open('train_headpose.json','r')
             logger.info('Load Train Headpose')

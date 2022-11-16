@@ -1,10 +1,7 @@
 import os, torch, glob, subprocess, shutil
 import torch.nn as nn
-from torch import Tensor
-from PIL.Image import merge
 import pandas as pd
 from torchvision import transforms
-import torch.nn.functional as F
 from common.metrics import run_evaluation
 from common.distributed import is_master, synchronize
 from math import cos, pi

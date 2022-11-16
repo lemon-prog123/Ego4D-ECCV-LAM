@@ -4,11 +4,11 @@ import torch
 import torch.optim
 import torch.utils.data
 from torch.utils.data import DistributedSampler
-from dataset.data_loader_copy import  ImagerLoader, TestImagerLoader
-from model.model_copy import GazeDETR
+from dataset.data_loader import  ImagerLoader, TestImagerLoader
+from model.model import GazeDETR
 from common.config import argparser
 from common.logger import create_logger
-from common.engine_copy import train, validate
+from common.engine import train, validate
 from common.utils import PostProcessor, get_transform, save_checkpoint, TestPostProcessor
 from common.distributed import distributed_init, is_master, synchronize
 import torch.backends.cudnn as cudnn
