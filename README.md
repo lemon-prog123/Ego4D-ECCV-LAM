@@ -36,7 +36,7 @@ You can see the detail in [dataset/data_loader.py](./dataset/data_loader.py).
 And for the annations of headpose, you can directly use model in [deep-head-pose](https://github.com/natanielruiz/deep-head-pose) and run it on your face crops.
 We use 'uid-trackid-frameid' as keys in our headpose annations. Please refer to [dataset/data_loader.py](./dataset/data_loader.py).
 
-And we will release our filter JSON FILE for train set later.
+And we release our filter JSON FILE for train set later in [train_filter](https://www.aliyundrive.com/s/cfQFkMvkzUX)
 
 ### Train
 
